@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fon2"
+    android:id="@+id/background">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:src="@drawable/avatar"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20sp"
+        android:layout_width="110sp"
+        android:layout_height="110sp"/>
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:src="@drawable/avatar_2"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="20sp"
+        android:layout_width="70sp"
+        android:layout_height="70sp"/>
+
+    <TextView
+        android:id="@+id/name_txt"
+        android:text="chike mgbemena"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/avatar"
+        android:layout_alignStart="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

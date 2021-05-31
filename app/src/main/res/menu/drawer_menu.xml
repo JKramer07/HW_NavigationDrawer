@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/all_inboxes"
+            android:icon="@drawable/ic_all_inbox_24"
+            android:title="All inboxes"/>
+    <group>
+        <item android:id="@+id/inbox"
+            android:icon="@drawable/ic_inbox_24"
+            android:title="Inbox" />
+        <item android:id="@+id/snoozed"
+            android:icon="@drawable/ic__time_24"
+            android:title="Snoozed"/>
+        <item android:id="@+id/done"
+            android:icon="@drawable/ic_done_24"
+            android:title="Done"/>
+    </group>
+    <group>
+        <item android:id="@+id/drafts"
+            android:icon="@drawable/ic_drafts_24"
+            android:title="Drafts" />
+        <item android:id="@+id/sent"
+            android:icon="@drawable/ic_send_24"
+            android:title="Sent"/>
+        <item android:id="@+id/reminders"
+            android:icon="@drawable/ic_online_prediction_24"
+            android:title="Reminders"/>
+    </group>
+    <group>
+        <item android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_24"
+            android:title="Settings" />
+        <item android:id="@+id/help"
+            android:icon="@drawable/ic_help_24"
+            android:title="Help and feedback"/>
+    </group>
+    </group>
+</menu>
